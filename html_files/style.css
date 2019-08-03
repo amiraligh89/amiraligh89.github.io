@@ -1,0 +1,38 @@
+.line-space {
+    line-height: 2.1;
+}
+
+.pic-margins {
+    margin: 5px;
+}
+.font-size {
+        font-size: 19px;
+}
+
+.bg-color{
+    background-color: rgb(192, 191, 191)
+}
+.font {
+    font-family: Times, serif;
+}
+
+.full-height {
+    height: 100%;
+  }
+
+.img-border {
+    border: 2px solid rgb(0, 174, 255)
+}
+
+
+.column {
+    width: 40%;
+    padding: 5px;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 769px) {
+    .column {
+      width: 100%;
+    }
+  }
